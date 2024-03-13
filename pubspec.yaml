@@ -35,7 +35,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   fluttertoast: ^8.2.2
   curved_navigation_bar: ^1.0.3 #latest version
-
+  page_view_dot_indicator: ^2.3.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

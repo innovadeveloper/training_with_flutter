@@ -25,19 +25,19 @@ class MyApp extends StatelessWidget {
           headlineLarge: TextStyle(
             fontSize: 30.0,
             fontWeight: FontWeight.w600,
-            color: Colors.white,
+            color: Colors.black,
             fontFamily: 'Poppins',
           ),
           headlineMedium: TextStyle(
             fontSize: 24.0,
             fontWeight: FontWeight.w600,
-            color: Colors.white,
+            color: Colors.black,
             fontFamily: 'Poppins',
           ),
           headlineSmall: TextStyle(
-            fontSize: 18.0,
+            fontSize: 14.0,
             fontWeight: FontWeight.w400,
-            color: Colors.white,
+            color: Colors.black,
             fontFamily: 'Poppins',
           ),
           bodySmall: TextStyle(
