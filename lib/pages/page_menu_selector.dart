@@ -10,6 +10,11 @@ class PageMenuSelector extends StatelessWidget {
   Widget build(BuildContext context) {
     return
     Scaffold(
+      appBar: AppBar(
+          automaticallyImplyLeading: false,
+          backgroundColor: Theme.of(context).primaryColor,
+          title: Text('Training Pages Selector'),
+        ),
       body: Center(
         child: _pageList(context, AppRoutes().routes().entries.map((e) => e.key).toList() ),
       ),

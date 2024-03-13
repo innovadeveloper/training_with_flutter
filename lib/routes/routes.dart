@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:training_with_flutter/main.dart';
+import 'package:training_with_flutter/pages/bank_pages/bank_home.dart';
 import 'package:training_with_flutter/pages/batery_info.dart';
 import 'package:training_with_flutter/pages/home.dart';
 import 'package:training_with_flutter/pages/login.dart';
@@ -15,6 +16,7 @@ class AppRoutes {
  Map<String, WidgetBuilder> routes(){
    return {
         '/'  : (BuildContext context ) => SplashScreen(key: UniqueKey(),),
+        '/bank_home'  : (BuildContext context ) => BankHomePage(),
         '/page_menu_selector'  : (BuildContext context ) => PageMenuSelector(key : UniqueKey()),
         '/selection_city'  : (BuildContext context ) => SelectionCity(key : UniqueKey()),
         '/onboarding' : (BuildContext context ) => Onboarding(key : UniqueKey()),
